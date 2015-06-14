@@ -1,0 +1,24 @@
+{ "sitemap-meta":
+  [
+    {
+      "title": "Goldmedia Blog",
+      "id": "blog"
+    },
+    {
+      "title": "Datenschutz",
+      "id": "privacy"
+    },
+    {
+      "title": "Impressum",
+      "id": "imprint"
+    },
+    {
+      "title": "Kontakt",
+      "id": "contact"
+    },
+    {
+      "title": "Newsletter",
+      "id": "newsletter"
+    }
+  ]
+}

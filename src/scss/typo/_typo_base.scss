@@ -1,0 +1,32 @@
+/*  Basis Typography Definitions for every project */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto:400,500&subset=cyrillic,latin,latin-ext);
+
+$default-em-size: 10px; /* 1rem = 10px */
+
+$default-font-family: 'Roboto', Helvetica, Arial, sans-serif;
+$default-font-size: 1.6em;
+$default-line-height: 1.5;
+
+html {
+  font-size: $default-em-size;
+}
+body {
+  font-family: $default-font-family;
+  font-size: $default-font-size;
+  line-height: $default-line-height;
+}
+
+h1, .headline, .frkl-manufacturer {
+  font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 1em;
+  margin-top:0;
+}
+i {
+  font-style: normal; /* just for helper elements */
+}

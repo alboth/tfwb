@@ -1,0 +1,30 @@
+/*  Mixins */
+
+@mixin spacer-element {
+    content: " ";
+    display: table;
+    clear: both;
+}
+@mixin spacer-before {
+  &::before {
+    @include spacer-element;
+    margin-bottom: $default-box-padding;
+  }
+}
+@mixin spacer-after {
+  &::after {
+    @include spacer-element;
+    margin-top: $default-box-padding;
+  }
+}
+@mixin ruler-after {
+  &::after {
+    @include spacer-element;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-color: $color-default-border-color;
+    width: 100%;
+    margin-bottom: $default-box-padding;
+    margin-top: $default-box-padding;
+  }
+}

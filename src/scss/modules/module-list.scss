@@ -1,0 +1,133 @@
+/*  Project based list styles */
+
+/* forklifts
+########################*/
+.frkl-list .module-list-item .headline {
+  margin:0;
+}
+.frkl-upcoming .text-wrap {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.frkl-upcoming .text-wrap > * {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.frkl-upcoming .frkl-price {
+  text-align: right;
+}
+
+//  slider
+.slider-link {
+  display: block;
+  text-decoration: none;
+  padding: 1px;
+  position: relative;
+}
+.slider-text .frkl-value,
+.offer-text .frkl-value {
+  padding: 0 $default-box-padding;
+}
+.offer-text {
+  top: $default-box-padding;
+  position: absolute;
+}
+.offer-text .frkl-value {
+  float:left;
+  clear:left;
+  margin-bottom:.3em;
+}
+.frkl-manufacturer {
+  font-weight: bold;
+}
+.frkl-dayoffer {
+  position:relative;
+}
+.frkl-manufacturer {
+  font-size: 1.2em;
+}
+.frkl-list a { color: inherit; text-decoration: none; }
+
+.frkl-full-list {
+  .table-head { display: none; }
+  .table-cell {
+    display: block;
+    margin-left: 35%;
+    /*margin-left: calc(33% + #{"20px"});*/
+  }
+  .figure-wrap {
+    width: 100%;
+    /*margin-left: calc( -33% - 20px);*/
+  }
+  .cell-1 {
+    height: 0;
+    margin-left: 0;
+    width: 33%;
+    .figure-wrap {
+      width:auto;
+      max-width: 100%;
+    }
+  }
+  .cell-7 { text-align: right;}
+}
+
+@media screen and (min-width:$breakpoint-sm) {
+
+  .frkl-full-list {
+    .module-list-items {
+      display: table;
+      width:100%;
+    }
+    i::before {
+      content:"\e946"; /* sort */
+      color: $color-font-grey;
+      font-family: undko;
+      padding-left: .3em;
+    }
+    i:hover::before {
+        color: $color-unilift-green;
+        content:"\e948"; /* sort down */
+        content:"\e947"; /* sort up */
+    }
+    a:hover {text-decoration: underline;}
+    .module-list-items li, .module-list-items .table-head {
+    display: table-row;
+    width: 100%;
+    padding:  0;
+    }
+    .table-head {
+      color: #000;
+    }
+    .table-cell {
+    display: table-cell;
+    padding:$default-box-padding;
+    vertical-align: top;
+    border-bottom: 1px solid;
+    font-size: .9em;
+    }
+    .legend { display: none; }
+    .figure-wrap { margin: 0;  padding: 0;}
+    .cell-1, .cell-1 img {
+      width: 100px;
+      max-width: none;
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .cell-6 { /* ID - needs too much space */
+      display:none;
+    }
+    .figure-wrap {
+      float:none;
+      width: auto;
+      margin: 0;
+    }
+  }
+}
+@media screen and (min-width: $breakpoint-xl) {
+  .cell-6 { /* ID - needs too much space */
+    display:table-cell;
+  }
+}

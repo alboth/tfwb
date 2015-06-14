@@ -1,0 +1,53 @@
+<ul class="menu-items menu-level-1">
+  <li class="menu-item"><a href="{{sitemap.id}}.html" class="menu-link">{{sitemap.title}}</a></li>
+    {{#each sitemap.children}}
+      {{#if children}}
+        <li class="menu-item menu-has-sub">
+          <a class="menu-link" href="{{id}}.html">{{title}}</a>
+          <ul class="menu-sub-items menu-level-2">
+            {{#each children}}
+              {{#if children}}
+                <li class="menu-item menu-has-sub">
+                  <a class="menu-link" href="{{id}}.html">{{title}}</a>
+                  <ul class="menu-sub-items menu-level-3">
+                    {{#each children}}
+                      {{#if children}}
+                        <li class="menu-item menu-has-sub">
+                          <a class="menu-link" href="{{id}}.html">{{title}}</a>
+                          <ul class="menu-sub-items menu-level-4">
+                            {{#each children}}
+                              {{#if children}}
+                                <li class="menu-item menu-has-sub">
+                                  <a class="menu-link" href="{{id}}.html">{{title}}</a>
+                                </li>
+                              {{else}}
+                                <li class="menu-item">
+                                  <a class="menu-link" href="{{id}}.html">{{title}}</a>
+                                  </li>
+                              {{/if}}
+                            {{/each}}
+                          </ul>
+                        </li>
+                      {{else}}
+                        <li class="menu-item">
+                          <a class="menu-link" href="{{id}}.html">{{title}}</a>
+                          </li>
+                      {{/if}}
+                    {{/each}}
+                  </ul>
+                </li>
+              {{else}}
+                <li class="menu-item">
+                  <a class="menu-link" href="{{id}}.html">{{title}}</a>
+                  </li>
+              {{/if}}
+            {{/each}}
+          </ul>
+        <!--/li-->
+      {{else}}
+        <li class="menu-item">
+          <a class="menu-link" href="{{id}}.html">{{title}}</a>
+        <!--/li-->
+      {{/if}}
+    {{/each}}
+</ul>

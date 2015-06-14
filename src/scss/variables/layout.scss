@@ -1,0 +1,21 @@
+/* Layout Definitions/Sizes */
+$layout-max-page-width: 1280px;
+
+/*  Content */
+$default-border-radius: 5px;
+$default-box-padding: 1rem;
+
+/*  Media Queries */
+$breakpoint-sm: 35.5em;  /* ≥ 568px */
+$breakpoint-md: 48em;    /* ≥ 768px */
+$breakpoint-lg: 900em/16;    /* ≥ 900px */
+$breakpoint-xl: 80em;    /* ≥ 1280px */
+
+$mobile-bar-line-height-md: 3;
+$mobile-bar-height-md: 3em;
+$mobile-bar-line-height-sm: 2;
+$mobile-bar-height-sm: 2em;
+
+/*col main width */
+$col-main-width: 63.645726055613%;
+$col-aside-width: 34.08856848609681%;

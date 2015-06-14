@@ -1,0 +1,15 @@
+.frkl-filter .form-field-wrap {
+  margin-bottom: $default-box-padding;
+  display:block;
+  @media screen and (min-width:$breakpoint-sm) {
+    width: 49%;
+    float: left;
+    &:nth-child(even) {
+      margin-left: 2%;
+    }
+  }
+}
+.frkl-filter input[type=text],
+.frkl-filter select {
+  width: 100%;
+}

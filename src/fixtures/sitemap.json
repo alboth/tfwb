@@ -1,0 +1,88 @@
+{ "sitemap":
+  {
+    "title": "Homepage",
+    "id": "index",
+    "children": [
+      {
+        "title": "Aktuelles",
+        "id": "news",
+        "children":[
+          {
+            "title": "Newsletter",
+            "id": "newsletter"
+          },
+          {
+            "title": "Trendmonitor 2014",
+            "id": "news/trendmonitor"
+          },
+          {
+            "title": "Termine",
+            "id": "news/calendar"
+          },
+          {
+            "title": "Archiv",
+            "id": "news/archive"
+          },
+          {
+            "title": "Suche",
+            "id": "news/search"
+          }
+        ]
+      },
+      {
+        "title": "Unternehmen",
+        "id": "company",
+        "children":[
+          {
+            "title": "Industry Practices",
+            "id": "#"
+          },
+          {
+            "title": "Geschäftsführung",
+            "id": "#"
+          },
+          {
+            "title": "Case Studies",
+            "id": "#"
+          },
+          {
+            "title": "Grundsätze",
+            "id": "#"
+          },
+          {
+            "title": "Jobs",
+            "id": "#"
+          },
+          {
+            "title": "Kontakt",
+            "id": "#"
+          }
+        ]
+      },
+      {
+        "title": "Consulting",
+        "id": "consulting"
+      },
+      {
+        "title": "Personalberatung",
+        "id": "#"
+      },
+      {
+        "title": "Research",
+        "id": "research"
+      },
+      {
+        "title": "Merketing",
+        "id": "marketing"
+      },
+      {
+        "title": "Publikationen",
+        "id": "publications"
+      },
+      {
+        "title": "Presse",
+        "id": "press"
+      }
+    ]
+  }
+}

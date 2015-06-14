@@ -1,0 +1,36 @@
+/*  color definitions */
+
+$color-default-font: #333; /* rgb(51, 51, 51) */
+$color-tfwb-yellow: ##FEDB2A; /* rgb(254, 219, 42) */
+$color-tfwb-red: #E8554E;
+$color-tfwb-blue: #448CCB; /* rgb(68, 140, 203) */
+$color-tfwb-blue-darker: #1976D2; /* rgb() */
+
+$color-font-grey: #999;
+
+
+
+$color-lightgrey-bg: rgb(239, 239, 239);
+
+
+$color-unilift-green-darker: #689F38;
+$color-body-bg-color: #F8F6F6;
+$color-white: #fff;
+$color-default-border-color: #ddd;
+
+$color-button-bg: $color-tfwb-blue;
+$color-button-hover-bg: $color-tfwb-blue-darker;
+$color-button-color: $color-white;
+$color-button-hover-color: $color-white;
+
+$color-menu-top: #91c748;
+$color-menu-bottom: #7ba83c;
+$color-menu-cur: #6D9435;
+
+$color-input-border-color: $color-default-border-color;
+$color-input-focus-border-color: $color-tfwb-blue;
+$color-input-box-shadow-color: #ddd;
+$color-input-disabled-bg-color: #eaeded;
+$color-input-disabled-color: #cad2d3;
+$color-input-invalid-color: tomatoe;
+$color-input-invalid-border-color: $color-input-invalid-color;

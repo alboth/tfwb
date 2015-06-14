@@ -1,0 +1,28 @@
+/* General layout definitions */
+
+
+.page {
+  padding-top: 1em + $mobile-bar-height-sm;
+  max-width: $layout-max-page-width;
+  margin:0 auto;
+  position: relative;
+  @media screen and (min-width: $breakpoint-sm) {
+    padding-top: $mobile-bar-height-md;
+  }
+  @media screen and (min-width: $breakpoint-md) {
+    padding-top: $default-box-padding * 2;
+    padding-right: $default-box-padding;
+    padding-left: $default-box-padding;
+  }
+}
+
+.page-footer {
+  clear:both;
+}
+
+.print-link {
+    display:none;
+    @media screen and (min-width: $breakpoint-sm) {
+      display:inline;
+    }
+}

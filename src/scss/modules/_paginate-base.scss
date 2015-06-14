@@ -1,0 +1,21 @@
+/*  Pagination for Lists */
+.module-paginate {
+  margin-top: $default-box-padding;
+}
+.paginate-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.paginate-item {
+  display: inline-block;
+  margin-right: $default-box-padding;
+  padding: .2em .5em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: $color-default-border-color;
+  border-radius: 2px;
+}
+.paginate-link {
+  text-decoration: none;
+}
